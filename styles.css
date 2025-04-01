@@ -69,7 +69,7 @@ header > h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 482px; */
+     height: 482px;
 }
 .information > h1{
     font-size: 36px;
@@ -94,4 +94,68 @@ header > h1{
     width: 150px;
     color:#6D747D;
     text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 482px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-quote{
+    width: 800px;
+}
+.main-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #6D747D;
+    text-align: left;
+
+}
+.secondary-text{
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.ad{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-ad{
+    background-color: #3882F6;
+    width: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+    gap: 150px;
+}
+.ad-text > .ad-main-text{
+    font-weight: 900;
+}
+.ad-text > .ad-secondary-text{
+    color:#E5E7EB;
+}
+.container-ad > button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 25px;
+}
+
+footer{
+    height:78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
 }
