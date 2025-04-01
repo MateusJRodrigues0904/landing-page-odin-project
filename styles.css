@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+header > h1{
+    color: white;
+    flex-basis: 450px;
+}
+.links-header{
+    display: flex;
+    gap: 10px;
+    flex-basis: 450px;
+    justify-content: flex-end;
+}
+.links-header > a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero{
+    padding: 130px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.hero-esquerda > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 350px;
+}
+.hero-esquerda > p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+}
+.hero-esquerda > button{
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.hero-direita{
+    background-color: #6D747D;
+    width: 450px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 482px; */
+}
+.information > h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 50px;
+
+}
+.quadrados{
+    display: flex;
+    gap: 30px;
+}
+.quadrado > div{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.quadrado > p{
+    padding-top: 5px;
+    font-size: 16px;
+    width: 150px;
+    color:#6D747D;
+    text-align: center;
+}
